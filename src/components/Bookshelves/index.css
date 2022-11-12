@@ -1,0 +1,251 @@
+.bookspage {
+  background-color: #d7dcf0;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.searchinputcontainerforlarge {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  align-items: center;
+  padding: 2px;
+  height: 33px;
+  border-color: rgb(95, 99, 97);
+}
+.searchinputcontainerforsmall {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  align-items: center;
+  padding: 2px;
+  height: 33px;
+  border-color: rgb(95, 99, 97);
+  display: none;
+}
+.booksandsearchcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookshelvescontainer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.bookshelvescontainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding-top: 40px;
+}
+.searchinput {
+  height: 30px;
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
+.searchicon {
+  background-color: #edeff1;
+  background-color: transparent;
+}
+.searchbutton {
+  border-width: 0px;
+  background-color: transparent;
+}
+.bookssection {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-grow: 1;
+  margin-top: 0px;
+}
+
+.filterscontainer {
+  background-color: #ffffff;
+  height: 100vh;
+  margin-right: 40px;
+  padding-left: 25px;
+  padding-right: 20px;
+  list-style-type: none;
+  margin-top: 0px;
+  min-width: 200px;
+}
+.filterslist {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.filterbuttons {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #435061;
+  color: #475569;
+}
+.activebookfilter {
+  color: rgb(60, 60, 226);
+}
+.loadercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.currentcategorytitle {
+  font-weight: 400;
+  font-weight: 600;
+  font-size: 20px;
+  color: #334155;
+  margin: 7px;
+}
+.bookshelvestitle {
+  font-weight: 400;
+  font-weight: 600;
+  font-size: 20px;
+  color: #334155;
+  margin: 7px;
+}
+
+.noitemsfoundcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.noitemsfoundimage {
+  width: 70%;
+}
+.bookslist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.booklistitem {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+.booklistitemimage {
+  height: 150px;
+  padding-right: 15px;
+}
+.booklistitemcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ratingcontainerinbooks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bookdetailslink {
+  text-decoration: none;
+  width: 300px;
+}
+.booktitleinbooks {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 6px;
+  text-decoration: none;
+}
+.iconscontainer {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  margin-right: 20px;
+}
+.statuscontainerinbooks {
+  display: flex;
+  align-items: center;
+}
+.bookstatustextinbooks {
+  color: rgb(46, 99, 245);
+  font-size: 15px;
+  margin: 0px;
+}
+@media (max-width: 600px) {
+  .bookshelvescontainer {
+    padding-left: 0px;
+    padding-right: 20px;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .bookshelvescontainer-container {
+    margin-top: 0px;
+  }
+  .searchinputcontainerforsmall {
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+  }
+  .filterscontainer {
+    height: 120px;
+    background-color: transparent;
+    padding-left: 0px;
+  }
+  .filterslist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  .searchinputcontainerforlarge {
+    display: none;
+  }
+  .currentcategorytitle {
+    display: none;
+  }
+  .bookslist {
+    padding-left: 0px;
+  }
+  .filterbuttons {
+    background-color: transparent;
+    color: rgb(14, 71, 179);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(20, 95, 207);
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+  }
+  .activebookfilter {
+    background-color: rgb(47, 89, 228);
+    color: white;
+  }
+  .noitemsfoundimage {
+    width: 70%;
+    height: inherit;
+  }
+  .noitemstext {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 601px) {
+}

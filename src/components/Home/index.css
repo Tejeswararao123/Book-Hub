@@ -1,0 +1,174 @@
+.homepagecontainer {
+  background: #d7dcf0;
+  padding-top: 0px;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.homepageexceptheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+.topratedbookscontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 350px;
+}
+.topratedbookstitlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.topratedbookslist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.findbooksbuttonforlarge {
+  background: #0284c7;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 10px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+.findbooksbuttonforsmall {
+  display: none;
+  background: #0284c7;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 10px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.homepagecontentcontainer {
+  width: 80%;
+}
+.carouselimage {
+  height: 200px;
+  width: 150px;
+}
+.carouselitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.iconscontainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  margin-right: 20px;
+}
+.loadercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.topratedlinks {
+  text-decoration: none;
+  font-weight: 500;
+  color: #334155;
+}
+.bookdetails {
+  margin: 5px;
+  font-size: 17px;
+}
+.authortext {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(59, 54, 54);
+  font-size: 23px;
+}
+.homepagetitles {
+  font-size: 22px;
+  color: #2f434d;
+  margin-bottom: 0px;
+}
+.sliderformedium {
+  display: none;
+}
+.sliderforsmall {
+  display: none;
+}
+.findbookslink {
+  text-decoration: none;
+}
+.contactustext {
+  text-align: center;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .homepagecontentcontainer {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  .sliderforlarge {
+    display: none;
+  }
+
+  .sliderformedium {
+    display: none;
+  }
+  .sliderforsmall {
+    display: block;
+  }
+  .findbooksbuttonforlarge {
+    display: none;
+  }
+  .findbooksbuttonforsmall {
+    display: inline;
+    margin-bottom: 10px;
+  }
+  .carouselimage {
+    height: 130px;
+    width: 100px;
+  }
+  .topratedbookscontainer {
+    height: 270px;
+  }
+  .bookdetails {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .authortext {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .homepagetitles {
+    margin-top: 7px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1100px) {
+  .sliderforlarge {
+    display: none;
+  }
+  .sliderformedium {
+    display: block;
+  }
+  .homepagecontentcontainer {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

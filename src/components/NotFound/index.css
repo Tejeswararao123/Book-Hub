@@ -1,0 +1,18 @@
+.pagenotfoundimage {
+  height: 300px;
+}
+.pagenotfoundcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notfoundbutton {
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 4px;
+  color: white;
+  padding: 7px;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.bookhublogo {
+  width: 141px;
+  height: 48px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.loginpageimage {
+  width: 50%;
+}
+.loginpage {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: stretch;
+}
+.rightsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+.label {
+  color: #5a7184;
+  margin-top: 15px;
+}
+.input {
+  padding: 7px;
+  margin-top: 7px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #c3cad9;
+  outline: none;
+}
+.loginbutton {
+  background: #0284c7;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.errormessage {
+  color: red;
+  font-size: 14px;
+}
+@media screen and (max-width: 700px) {
+  .loginpage {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+  }
+  .form {
+    align-self: center;
+  }
+  .loginpageimage {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-radius: 135px;
+  }
+  .rightsection {
+    height: 40vh;
+    width: 80vh;
+  }
+  .errormessage {
+    margin-bottom: 5px;
+  }
+  .loginbutton {
+    margin-top: 5px;
+  }
+  .bookhublogo {
+    margin-bottom: 25px;
+  }
+}

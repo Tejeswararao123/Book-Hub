@@ -1,0 +1,89 @@
+.logoinheader {
+  height: 41px;
+  width: 133px;
+}
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+}
+.logoutbutton {
+  background: #0284c7;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 8px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+.routelinkscontainerforlarge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.routelinkscontainerforsmall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  display: none;
+}
+.routelink {
+  color: #383f49;
+  color: #64748b;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.bluetext {
+  color: rgb(85, 85, 248);
+  font-weight: 500;
+}
+.hamburger {
+  display: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+.headercontainer {
+  background-color: transparent;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.cancelicon {
+  color: #64748b;
+  size: 30;
+  margin-left: 15px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .navcontainer {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+  .logoinheader {
+    height: 25px;
+    width: 80px;
+  }
+  .routelinkscontainerforlarge {
+    display: none;
+  }
+  .routelinkscontainerforsmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+  .hamburger {
+    display: inline;
+    cursor: pointer;
+  }
+}
